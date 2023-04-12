@@ -1,0 +1,14 @@
+.buttOne,
+.butTwo{
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.buttOne{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.butTwo{
+    background-color: #dada36;
+}
