@@ -20,9 +20,8 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-  padding: 16px;
   display: flex;
-  justify-content: space-around;
+  padding: 16px;
   gap: 16px;
 }
 
@@ -43,6 +42,9 @@ body {
 .header{
   font-size: 1.25rem;
   font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .center > div {
@@ -65,7 +67,6 @@ body {
 button {
   padding: 8px 16px;
   border-radius: 8px;
-  flex: content;
 }
 
 button.continue {
